@@ -1,0 +1,49 @@
+/* seznam, kaj lahko najdejo */
+.seznam_ponudbe li{
+	color: black;
+	font-size: 140%;
+}
+
+.naslov{
+	color: red;
+}
+
+
+/* gumb: preberi več */
+.row p a{
+	color: red;
+	cursor: pointer;
+}
+
+
+/* gumb: preberi več */
+/* Povezave do spletnih strani - seznam: pri nas lahko najdete */
+.row p a, .seznam_ponudbe ul li, .seznam_ponudbe ul li a{
+	color: #2ec429;
+	font-size: 120%;
+}
+
+.row p a{font-size: 100%;}
+
+.row p a:hover, .seznam_ponudbe ul a:hover{
+	color: #2ec429;
+}
+
+.row p a:active, .seznam_ponudbe ul a:active{
+	color: #2ec429;
+	font-weight: bold;
+}
+
+
+
+#mnenja .row{
+	border: solid black 1px;
+	margin: 20px 5px;
+	padding: 20px 5px;
+}
+
+
+.ime{
+	color: grey;
+	float: right;
+}

@@ -1,0 +1,12 @@
+/* Kontakt - Zemljevid */
+#zemljevid .container-fluid {
+  background-color: #efefef;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#zemljevid #map {
+  width: 100%;
+  height: 500px;
+
+}

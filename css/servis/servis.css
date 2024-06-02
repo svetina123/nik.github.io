@@ -1,0 +1,44 @@
+/* seznam, kaj lahko najdejo */
+form{
+	padding-left: 20px;
+	font-size: 130%;
+}
+
+/* razmik med elementi obrazca */
+input:nth-child(even){
+	margin-right: 50px;
+}
+.vrstica{
+	margin-top: 20px;
+}
+.vrstica:first-child{
+	margin-top: 0;
+}
+
+/* priimek - premik */
+label:nth-child(2){
+	margin-left: 240px;
+}
+
+
+
+/* email - premik */
+#email_premik{
+	margin-left: 107px;
+}
+
+
+/* gumb pošlji */
+input:last-child{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+/* okvir opisa težave */
+#opis{
+	width: 400px;
+	height: 100px;
+}
+
+.bi h2:hover{color: silver;}

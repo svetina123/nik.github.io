@@ -1,0 +1,21 @@
+/* okvir noge spletne strani */
+footer {
+   min-height: 80px;
+   color: silver;
+   padding: 20px;
+   line-height: 40px;
+
+   
+}
+
+/* oblikovanje ikon */
+.bi{color: silver;
+	padding:4px;
+	}
+	
+
+	
+.bi:hover{color: white;}
+
+
+

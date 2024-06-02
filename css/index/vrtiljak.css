@@ -1,0 +1,89 @@
+/* Vrtiljak slik - Carousel */
+.item img { 
+	width: 50%;
+	align-items: center;
+	align-content: center;
+	margin: auto;
+
+}
+
+/* Položaj napisa na slikah vrtiljaka */
+.carousel-caption {
+   top: 70%;
+   transform: translateY(-70%);
+}
+
+/* Oblika napisa na slikah vrtiljaka */
+.carousel-caption p {
+   font-size: 1.5em;
+   color: #bbb;	
+}
+
+/* Gumb na sliki vrtiljaka */
+.carousel-caption button { margin-top: 1.5em; }
+
+.carousel-caption .btn {
+   font-size: 1.2em;
+   color: #fff;
+   background-color: #553d7b;
+   padding: 12px 22px;
+   border: 2px solid #fff;
+}
+
+.carousel-caption .btn:hover {
+   color: #553d7b;
+   background-color: #fff;
+}
+
+/* Oblika napisov na slikah vrtiljaka pri različnih velikostih zaslona */
+@media (max-width: 1200px) {
+   .carousel-caption p {
+      font-size: 1.3em;
+   }
+   .carousel-caption button {
+      margin-top: 0em;	
+   }
+}
+
+@media (max-width: 940px) {
+   .carousel-caption button {
+      display: none;
+   }
+   .carousel-caption p {
+      font-size: 1.2em;
+   }
+}
+
+@media (max-width: 700px) {
+   .carousel-caption p {
+      font-size: 1.1em;
+      margin-top: -20px;
+   }
+}
+
+@media (max-width: 525px) {
+   .carousel-caption button {
+      display: none;
+   }
+   .carousel-caption p {
+      display: none;
+   }
+}
+
+.carousel-inner{
+	background-color: white;
+}
+
+
+
+.premikanje_logota{
+	animation: jug 5s infinite alternate linear;
+
+}
+
+@keyframes jug{
+	from{transform: rotate(-30deg) scale(1.3);}
+	to{transform: rotate(30deg) scale(1);}
+	
+}
+
